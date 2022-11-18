@@ -11,10 +11,18 @@ gem 'sqlite3'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# font awsome 4 for ruby gem
+gem "font-awesome-sass", "~> 6.2.1"
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
+
+#semantic-ui-sass is an Sass-powered version of Semantic UI and ready to drop into Rails, Compass, or Sprockets.
+gem 'jquery-rails'
+gem 'semantic-ui-sass', github: 'doabit/semantic-ui-sass'
+
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
